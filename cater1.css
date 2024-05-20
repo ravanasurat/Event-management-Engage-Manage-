@@ -1,0 +1,95 @@
+/* App.css */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .container {
+    display: flex;
+    width: 100vw; /* Make container width equal to viewport width */
+    height: 100vh;
+  }
+  
+  .division {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .fixed-height {
+    height: 400px;
+    width: 750px;
+  
+  }
+  
+  /* Make the right side scrollable */
+  .scrollable {
+    overflow-y: auto;
+    height: 100%;
+    width: 750px;
+  
+  }
+  
+  
+  .non-scrollable {
+    overflow: hidden; 
+    flex: 1;
+  }
+  
+  .division {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .fixed-height {
+    height: 500px; 
+    overflow: hidden; 
+  }
+  
+  .scrollable-content {
+    overflow-y: auto; 
+    height: 100%;
+    height: 550px; 
+  }
+  
+  h3 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .p1 {
+    font-size: 18px;
+    color: rgb(206, 16, 16);
+    background-color: aqua;
+    border-collapse: 2px;
+  }
+  
+  
+  .navbar-brand {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .navbar-brand img {
+    width: 200px; 
+    height: 100px;
+    margin-right: 15px; 
+  }
+  /* Global styles */
+body {
+  font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Specific styles for different elements */
+h2 {
+  font-family: "Times New Roman", Times, serif; /* Font for h2 elements */
+}
+
+.form-group label {
+  font-family: Georgia, serif; /* Font for labels inside .form-group */
+}
+
+.form-control {
+  font-family: "Courier New", Courier, monospace; /* Font for form controls */
+}
